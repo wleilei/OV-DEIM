@@ -90,7 +90,7 @@ from lvis import LVIS, LVISEval
 ```
 Navigate to the source file where LVISEval is defined. In that file, modify lines 361 and 362 by replacing np.float with np.float64.
 
-Download the original backbone weights from [DEIMv2](https://github.com/Intellindust-AI-Lab/DEIMv2) and the corresponding [text data](-), where the text embeddings are extracted using [MobileCLIP-B(LT)](https://github.com/apple/ml-mobileclip).
+Download the original backbone weights from [DEIMv2](https://github.com/Intellindust-AI-Lab/DEIMv2) and the corresponding [text data](https://pan.baidu.com/s/1hj30rX0MoeOp8_VPzzoMzA?pwd=tzg6), where the text embeddings are extracted using [MobileCLIP-B(LT)](https://github.com/apple/ml-mobileclip).
 
 
 ### Data
