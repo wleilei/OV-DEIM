@@ -29,9 +29,9 @@ Real-time open-vocabulary object detection faces two key challenges: achieving h
 
 | Model | Size | Params | Data | FPS | $\text{AP}$ / $\text{AP}^{\text{Fixed}}$ | $\text{AP}_r$ / $\text{AP}^{\text{Fixed}}$ | $\text{AP}_c$ / $\text{AP}^{\text{Fixed}}$ | $\text{AP}_f$ / $\text{AP}^{\text{Fixed}}$ | Config | Checkpoint |
 |---|---|---|---|---|---|---|---|---|---|---|
-|OV-DEIM-S|640|11M|OG|161|27.7 / 29.6|23.6 /25.2|28.1 / 30.2 |28.0 / 30.0|[S](./config/dinov3_ori/dinov3_s.py)|[Baidu](https://pan.baidu.com/s/1hj30rX0MoeOp8_VPzzoMzA?pwd=tzg6)|
-|OV-DEIM-M|640|20M|OG|109|30.6 / 32.6|25.3 /26.9|30.2 / 31.5 |31.9 / 34.1|[M](./config/dinov3_ori/dinov3_m.py)|[Baidu](https://pan.baidu.com/s/1hj30rX0MoeOp8_VPzzoMzA?pwd=tzg6)|
-|OV-DEIM-L|640|36M|OG|91 |33.7 / 35.9|34.3 /36.8|33.4 / 35.5 |34.0 / 36.0|[L](./config/dinov3_ori/dinov3_l.py)|[Baidu](https://pan.baidu.com/s/1hj30rX0MoeOp8_VPzzoMzA?pwd=tzg6)|
+|OV-DEIM-S|640|11M|OG|161|27.7 / 29.6|23.6 /25.2|28.1 / 30.2 |28.0 / 30.0|[S](./config/dinov3_ori/dinov3_s.py)|[Baidu](https://pan.baidu.com/s/13MdxnfnkOeE1EyQkxqny7w?pwd=tzg6)|
+|OV-DEIM-M|640|20M|OG|109|30.6 / 32.6|25.3 /26.9|30.2 / 31.5 |31.9 / 34.1|[M](./config/dinov3_ori/dinov3_m.py)|[Baidu](https://pan.baidu.com/s/13MdxnfnkOeE1EyQkxqny7w?pwd=tzg6)|
+|OV-DEIM-L|640|36M|OG|91 |33.7 / 35.9|34.3 /36.8|33.4 / 35.5 |34.0 / 36.0|[L](./config/dinov3_ori/dinov3_l.py)|[Baidu](https://pan.baidu.com/s/13MdxnfnkOeE1EyQkxqny7w?pwd=tzg6)|
 
 ### Zero-shot detection evaluation on COCO
 
@@ -90,7 +90,7 @@ from lvis import LVIS, LVISEval
 ```
 Navigate to the source file where LVISEval is defined. In that file, modify lines 361 and 362 by replacing np.float with np.float64.
 
-Download the original backbone weights from [DEIMv2](https://github.com/Intellindust-AI-Lab/DEIMv2) and the corresponding [text data](https://pan.baidu.com/s/1hj30rX0MoeOp8_VPzzoMzA?pwd=tzg6), where the text embeddings are extracted using [MobileCLIP-B(LT)](https://github.com/apple/ml-mobileclip).
+Download the original backbone weights from [DEIMv2](https://github.com/Intellindust-AI-Lab/DEIMv2) and the corresponding [text data](https://pan.baidu.com/s/13MdxnfnkOeE1EyQkxqny7w?pwd=tzg6), where the text embeddings are extracted using [MobileCLIP-B(LT)](https://github.com/apple/ml-mobileclip).
 
 
 ### Data
