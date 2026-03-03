@@ -43,30 +43,10 @@ Real-time open-vocabulary object detection faces two key challenges: achieving h
 
 ### Visualizations of zero-shot inference on LVIS
 
-<figure align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="figures/lvis_50896_predictions_resized.png" width="100%"><br>
-        (a) Image ID: 50896
-      </td>
-      <td align="center">
-        <img src="figures/lvis_97337_predictions_resized.png" width="100%"><br>
-        (b) Image ID: 97337
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <img src="figures/lvis_226417_predictions_resized.png" width="100%"><br>
-        (c) Image ID: 226417
-      </td>
-      <td align="center">
-        <img src="figures/lvis_231580_predictions_resized.png" width="100%"><br>
-        (d) Image ID: 231580
-      </td>
-    </tr>
-  </table>
-</figure>
+<p></p>
+<p align="center">
+  <img src="figures/visual.png" width=95%> <br>
+</p>
 
 
 ## 2. Quick Start
