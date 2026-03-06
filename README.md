@@ -105,6 +105,12 @@ The code base is built with [YOLO-World](https://github.com/AILab-CVC/YOLO-World
 ## 4. Citation
 
 ```
-
+@misc{wang2026ovdeim,
+  title={OV-DEIM: Real-time DETR-Style Open-Vocabulary Object Detection with GridSynthetic Augmentation},
+  author={Wang, Leilei and Liu, Longfei and Shen, Xi and Yu, Xuanlong and He, Ying Tiffany and Yu, Fei Richard and Chen, Yingyi},
+  journal={arXiv preprint},
+  year={2026},
+  url={https://arxiv.org/abs/XXXX.XXXXX}
+}
 ```
 
