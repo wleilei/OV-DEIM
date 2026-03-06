@@ -99,7 +99,7 @@ torchrun \
 ```
 
 ## 3. Acknowledgement
-The code base is built with [YOLO-World](https://github.com/AILab-CVC/YOLO-World), [YOLOE](https://github.com/THU-MIG/yoloe), [MobileCLIP](https://github.com/apple/ml-mobileclip), [RT-DETR](https://github.com/lyuwenyu/RT-DETR) and [DEIMv2](https://github.com/Intellindust-AI-Lab/DEIMv2).
+The code base is built with [YOLO-World](https://github.com/AILab-CVC/YOLO-World), [YOLOE](https://github.com/THU-MIG/yoloe), [MobileCLIP](https://github.com/apple/ml-mobileclip), [RT-DETR](https://github.com/lyuwenyu/RT-DETR), [DINOv3](https://github.com/facebookresearch/dinov3) and [DEIMv2](https://github.com/Intellindust-AI-Lab/DEIMv2).
 
 
 ## 4. Citation
